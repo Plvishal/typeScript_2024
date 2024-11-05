@@ -62,3 +62,12 @@ peoples = [
   { name: 'Raju', age: 25, isValid: false },
   { name: 'Pooja', age: 22, isValid: true },
 ];
+
+// Functions  & Types
+
+function add(a: number, b: number) {
+  return a + b;
+}
+
+
+// 
