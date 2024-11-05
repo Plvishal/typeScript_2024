@@ -34,3 +34,10 @@ people = [
   { name: 'Raju', age: 25 },
   { name: 'Shyam', age: 23 },
 ];
+
+// Type Inference
+let course = 'React- Typecript';
+
+// Union Types
+let courses: string | number = 'React- TypeScript';
+courses = 124;
