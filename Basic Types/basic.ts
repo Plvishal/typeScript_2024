@@ -69,5 +69,12 @@ function add(a: number, b: number) {
   return a + b;
 }
 
+//  Generics
+function insertBegininga<T>(array: T[], value: T) {
+  const newArray = [value, ...array];
+  return newArray;
+}
 
-// 
+const demoArray = [1, 2, 3];
+const updatedArray = insertBegininga(demoArray, -1); //This is right because : both arguments value are same type
+const stringArray = insertBegininga(['a', 'b', 'c'], 'f'); // Same here
