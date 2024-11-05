@@ -41,3 +41,24 @@ let course = 'React- Typecript';
 // Union Types
 let courses: string | number = 'React- TypeScript';
 courses = 124;
+
+// Type alliases
+
+type Person = {
+  name: string;
+  age: number;
+  isValid: boolean;
+};
+
+let person1: Person; // allias type
+person1 = {
+  name: 'Vishal',
+  age: 24,
+  isValid: true,
+};
+
+let peoples: Person[];
+peoples = [
+  { name: 'Raju', age: 25, isValid: false },
+  { name: 'Pooja', age: 22, isValid: true },
+];
